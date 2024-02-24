@@ -20,6 +20,9 @@ nav {
   align-items: center;
   padding: 30px 40px;
 }
+button {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
 button:hover {
   cursor: pointer;
 }
@@ -142,9 +145,9 @@ button:hover {
   display: inline;
 }
 form {
-  display: flex; /* Added */
-  flex-direction: row; /* Added */
-  align-items: center; /* Added */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 input[type="email"] {
   padding: 10px;
